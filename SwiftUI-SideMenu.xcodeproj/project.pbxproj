@@ -11,6 +11,10 @@
 		E3F79675264284EC004FFE6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F79674264284EC004FFE6A /* ContentView.swift */; };
 		E3F79677264284EF004FFE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F79676264284EF004FFE6A /* Assets.xcassets */; };
 		E3F7967A264284EF004FFE6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F79679264284EF004FFE6A /* Preview Assets.xcassets */; };
+		E3F79682264287C9004FFE6A /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F79681264287C9004FFE6A /* SideMenuView.swift */; };
+		E3F79684264287E7004FFE6A /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F79683264287E7004FFE6A /* SideMenuHeaderView.swift */; };
+		E3F7968626428803004FFE6A /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7968526428803004FFE6A /* SideMenuOptionView.swift */; };
+		E3F796882642882A004FFE6A /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F796872642882A004FFE6A /* SideMenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		E3F79676264284EF004FFE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3F79679264284EF004FFE6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3F7967B264284EF004FFE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F79681264287C9004FFE6A /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		E3F79683264287E7004FFE6A /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		E3F7968526428803004FFE6A /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		E3F796872642882A004FFE6A /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				E3F79676264284EF004FFE6A /* Assets.xcassets */,
 				E3F7967B264284EF004FFE6A /* Info.plist */,
 				E3F79678264284EF004FFE6A /* Preview Content */,
+				E3F79681264287C9004FFE6A /* SideMenuView.swift */,
+				E3F79683264287E7004FFE6A /* SideMenuHeaderView.swift */,
+				E3F7968526428803004FFE6A /* SideMenuOptionView.swift */,
+				E3F796872642882A004FFE6A /* SideMenuViewModel.swift */,
 			);
 			path = "SwiftUI-SideMenu";
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F79682264287C9004FFE6A /* SideMenuView.swift in Sources */,
+				E3F79684264287E7004FFE6A /* SideMenuHeaderView.swift in Sources */,
 				E3F79675264284EC004FFE6A /* ContentView.swift in Sources */,
+				E3F7968626428803004FFE6A /* SideMenuOptionView.swift in Sources */,
+				E3F796882642882A004FFE6A /* SideMenuViewModel.swift in Sources */,
 				E3F79673264284EC004FFE6A /* SwiftUI_SideMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
